@@ -14,6 +14,7 @@ return {
         nvimtree = false,
         treesitter = true,
         notify = false,
+        snacks = true,
         mini = {
           enabled = true,
           indentscope_color = "",
@@ -21,13 +22,10 @@ return {
       },
       custom_highlights = function(colors)
         return {
+          NormalFloat = { bg = "NONE" },
+          FloatBorder = { bg = "NONE" },
+
           CursorLine = { bg = "none" },
-
-          NeoTreeNormal = { bg = "none" },
-          NeoTreeNormalNC = { bg = "none" },
-          NeoTreeEndOfBuffer = { bg = "NONE" },
-
-          NeoTreeWinSeparator = { bg = "none", fg = colors.surface1 },
         }
       end,
     },
