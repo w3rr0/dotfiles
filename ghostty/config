@@ -13,6 +13,9 @@ background-opacity = 0.85
 background-blur = 20
 macos-titlebar-style = transparent
 
+# Size
+maximize = true
+
 # Mouse
 mouse-hide-while-typing = true
 
