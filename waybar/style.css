@@ -63,7 +63,8 @@ button:hover {
     border-radius: 16px;
     margin: 0 4px;
     min-width: 20px;
-    transition: all 0.15s ease-in-out;
+    /* transition: all 0.15s ease-in-out; */
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
     opacity: 0.6;
     border: none;
     box-shadow: none;
