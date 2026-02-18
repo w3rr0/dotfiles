@@ -10,6 +10,7 @@
         //"hyprland/mode",
         //"hyprland/scratchpad",
         //"custom/media",
+        "custom/arch",
         "clock",
         "hyprland/window"
     ],
@@ -207,5 +208,10 @@
         "format" : "⏻ ",
 		"tooltip": false,
         "on-click": "wlogout"
+    },
+    "custom/arch": {
+        "format" : "  ",
+        "tooltip" : false,
+        "on-click" : "wofi --show drun"
     }
 }
