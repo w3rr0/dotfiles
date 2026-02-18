@@ -326,3 +326,10 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+#custom-arch {
+    color: #1793d1;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 15px;
+}

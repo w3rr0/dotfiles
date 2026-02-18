@@ -210,7 +210,7 @@
         "on-click": "wlogout"
     },
     "custom/arch": {
-        "format" : "  ",
+        "format" : "",
         "tooltip" : false,
         "on-click" : "wofi --show drun"
     }
