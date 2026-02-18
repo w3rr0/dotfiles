@@ -7,9 +7,10 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/mode",
-        "hyprland/scratchpad",
-        "custom/media",
+        //"hyprland/mode",
+        //"hyprland/scratchpad",
+        //"custom/media",
+        "clock",
         "hyprland/window"
     ],
     "modules-center": [
@@ -28,7 +29,6 @@
         //"keyboard-state",
         //"sway/language",
         "battery",
-        "clock",
         //"tray",
         "custom/power"
     ],
