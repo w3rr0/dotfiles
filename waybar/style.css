@@ -361,7 +361,12 @@ label:focus {
 
 #custom-arch {
     color: #1793d1;
-    font-size: 18px;
-    padding-left: 10px;
-    padding-right: 15px;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+#custom-power {
+    color: white;
+    font-size: 15px;
+    padding: 0px 10px;
 }
