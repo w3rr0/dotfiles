@@ -54,6 +54,9 @@ if [ "$1" == "--arch" ]; then
     # Hyprland
     link_file "$DOTFILES_DIR/hypr" "$CONFIG_DIR/hypr"
 
+    # Waybar
+    link_file "$DOTFILES_DIR/waybar" "$CONFIG_DIR/waybar"
+
 fi
 
 printf "\n${BLUE}${BOLD}All symlinks created${NC}\n"
