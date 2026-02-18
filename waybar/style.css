@@ -73,7 +73,7 @@ button:hover {
     opacity: 0.8;
     min-width: 40px;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 3px;
     margin: 1px;
     padding: 0px;
     text-shadow: inherit;
@@ -82,7 +82,7 @@ button:hover {
 #workspaces button.focused, #workspaces button.active {
     background-color: #64727D;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 3px;
     border-radius: 9px;
     min-width: 40px;
     background-size: 400% 400%;
@@ -117,8 +117,11 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
+    min-height: 0px;
     padding: 0 10px;
     color: #ffffff;
+    border-radius: 12px;
+    margin-top: 5px;
 }
 
 #window {
@@ -128,7 +131,7 @@ button:hover {
 #workspaces {
     background-color: #1e1e2e;
     margin-top: 5px;
-    padding: 5px;
+    padding: 5px 5px;
     border-radius: 15px;
     border: 0px;
     min-height: 0px;
@@ -361,10 +364,12 @@ label:focus {
     color: #1793d1;
     font-size: 15px;
     padding: 0px 10px;
+    margin-top: 5px;
 }
 
 #custom-power {
     color: white;
     font-size: 15px;
     padding: 0px 10px;
+    margin-top: 5px;
 }
