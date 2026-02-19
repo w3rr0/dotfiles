@@ -1,1 +1,4 @@
 .DS_Store
+
+hypr/colors.conf
+waybar/colors.css
