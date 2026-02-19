@@ -85,7 +85,7 @@ button:hover {
     background-color: @active;
     color: @text_color;
     font-size: 3px;
-    min-width: 40px;
+    min-width: 70px;
     background-size: 400% 400%;
     opacity: 1.0;
     margin: 1px;
