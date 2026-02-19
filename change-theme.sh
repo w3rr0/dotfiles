@@ -6,6 +6,7 @@
 BG="1e1e2e"
 INNER="3b4252"
 ACTIVE="1793d1"
+HOVER="4c556a"
 TEXT="ffffff"
 
 # ==========================================
@@ -16,6 +17,7 @@ cat <<EOF >~/.config/waybar/colors.css
 @define-color inner      #${INNER};
 @define-color active     #${ACTIVE};
 @define-color text_color #${TEXT};
+@define-color hover      #${HOVER};
 EOF
 
 # ==========================================
@@ -26,6 +28,7 @@ cat <<EOF >~/.config/hypr/colors.conf
 \$inner = rgb(${INNER})
 \$active = rgb(${ACTIVE})
 \$text_color = rgb(${TEXT})
+\$hover = rgb(${HOVER})
 EOF
 
 echo "Color theme updated"
