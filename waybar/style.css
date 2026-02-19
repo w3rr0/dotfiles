@@ -1,3 +1,5 @@
+@import "colors.css";
+
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     /*font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
@@ -54,12 +56,12 @@ button:hover {
 }
 
 #workspaces button {
-    margin: 1px;
+    margin: 1px 2px;
     padding: 0px;
-    background-color: #3b4252;
+    background-color: @inner;
     color: transparent;
     font-size: 0px;
-    border-radius: 8px;
+    border-radius: 7px;
     min-height: 0px;
     min-width: 20px;
     transition: all 0.27s cubic-bezier(0.20, 1, 0.3, 1.3);
@@ -69,10 +71,10 @@ button:hover {
 }
 
 #workspaces button:hover {
-    background-color: #4c566a;
+    background-color: @hover;
     opacity: 0.8;
     min-width: 40px;
-    color: #ffffff;
+    color: @text_color;
     font-size: 3px;
     margin: 1px;
     padding: 0px;
@@ -80,10 +82,9 @@ button:hover {
 }
 
 #workspaces button.focused, #workspaces button.active {
-    background-color: #64727D;
-    color: #ffffff;
+    background-color: @active;
+    color: @text_color;
     font-size: 3px;
-    border-radius: 9px;
     min-width: 40px;
     background-size: 400% 400%;
     opacity: 1.0;
@@ -119,7 +120,8 @@ button:hover {
 #mpd {
     min-height: 0px;
     padding: 0 10px;
-    color: #ffffff;
+    color: @text_color;
+    background-color: @background;
     border-radius: 12px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -130,7 +132,7 @@ button:hover {
 }
 
 #workspaces {
-    background-color: #1e1e2e;
+    background-color: @background;
     margin-top: 5px;
     padding: 5px 5px;
     border-radius: 15px;
@@ -149,17 +151,17 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    /* background-color: #64727D; */
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    /* background-color: #ffffff; */
+    /* color: #000000; */
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+    /* color: #ffffff; */
+    /* background-color: #26A65B; */
 }
 
 @keyframes blink {
@@ -185,18 +187,18 @@ button:hover {
 }
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
-    color: #ffffff;
+    /* background-color: #f53c3c; */
+    /* color: #ffffff; */
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
-    color: #ffffff;
+    /* background-color: #2980b9; */
+    /* color: #ffffff; */
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
+    /* background-color: #2ecc71; */
+    /* color: #000000; */
 }
 
 label:focus {
@@ -204,37 +206,37 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    /* background-color: #2ecc71; */
+    /* color: #000000; */
 }
 
 #memory {
-    background-color: #9b59b6;
+    /* background-color: #9b59b6; */
 }
 
 #disk {
-    background-color: #964B00;
+    /* background-color: #964B00; */
 }
 
 #backlight {
-    background-color: #90b1b1;
+    /* background-color: #90b1b1; */
 }
 
 #network {
-    background-color: #2980b9;
+    /* background-color: #2980b9; */
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    /* background-color: #f53c3c; */
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
+    /* background-color: #f1c40f; */
     color: #000000;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
+    /* background-color: #90b1b1; */
     color: #2a5c45;
 }
 
@@ -365,14 +367,12 @@ label:focus {
     color: #1793d1;
     font-size: 15px;
     padding: 0px 10px;
-    margin-top: 5px;
 }
 
 #custom-power {
     color: white;
     font-size: 15px;
     padding: 0px 10px;
-    margin-top: 5px;
 }
 
 #taskbar {
