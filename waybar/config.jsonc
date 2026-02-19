@@ -12,6 +12,7 @@
         //"custom/media",
         "custom/arch",
         "clock",
+        "wlr/taskbar",
         "hyprland/window"
     ],
     "modules-center": [
@@ -213,5 +214,22 @@
         "format" : "",
         "tooltip" : false,
         "on-click" : "wofi --show drun"
+    },
+    "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 14,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": [
+       "wofi"
+    ],
+    "app_ids-mapping": {
+        "firefox-developeredition": "firefox-developer-edition"
+    },
+    "rewrite": {
+        "Firefox Web Browser": "Firefox",
+        "Foot Server": "Terminal"
     }
+},
 }

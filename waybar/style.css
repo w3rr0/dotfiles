@@ -374,3 +374,35 @@ label:focus {
     padding: 0px 10px;
     margin-top: 5px;
 }
+
+#taskbar {
+    background-color: #1e1e2e; 
+    margin: 4px 2px;
+    padding: 0px 5px;
+    border-radius: 12px;
+    min-height: 0px;
+}
+
+#taskbar button {
+    padding: 2px;
+    margin: 1px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffff;
+    min-height: 0px;
+    min-width: 0px;
+    border: none;
+    box-shadow: none;
+    transition: all 0.15s ease-in-out;
+}
+
+#taskbar button.active {
+    background-color: #3b4252;
+    opacity: 1.0;
+    margin: 1px;
+}
+
+#taskbar button:hover {
+    background-color: #4c566a;
+    opacity: 0.8;
+}
