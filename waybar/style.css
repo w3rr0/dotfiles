@@ -406,3 +406,10 @@ label:focus {
     background-color: #4c566a;
     opacity: 0.8;
 }
+
+#taskbar.empty {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
