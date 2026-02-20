@@ -48,6 +48,9 @@ link_file "$DOTFILES_DIR/starship/starship.toml" "$CONFIG_DIR/starship.toml"
 # Tmux
 link_file "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
 
+# Fastfetch
+link_file "$DOTFILES_DIR/fastfetch" "$CONFIG_DIR/fastfetch"
+
 # ---Arch only---
 if [ "$1" == "--arch" ]; then
 
