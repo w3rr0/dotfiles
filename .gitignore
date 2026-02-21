@@ -3,3 +3,5 @@
 hypr/colors.conf
 hypr/hyprpaper.conf
 waybar/colors.css
+
+nvim/lazy-lock.json
