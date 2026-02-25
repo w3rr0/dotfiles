@@ -16,6 +16,7 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25%;
+	background-color: rgba(30, 30, 30, 0.8);
 }
 
 button:focus, button:active, button:hover {
