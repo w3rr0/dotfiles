@@ -213,7 +213,7 @@
     "custom/power": {
         "format" : "⏻ ",
 		"tooltip": false,
-        "on-click": "wlogout"
+        "on-click": "wlogout -T 300 -B 300 -L 400 -R 400"
     },
     "custom/arch": {
         "format" : "",
