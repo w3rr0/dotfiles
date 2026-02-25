@@ -60,6 +60,9 @@ if [ "$1" == "--arch" ]; then
     # Waybar
     link_file "$DOTFILES_DIR/waybar" "$CONFIG_DIR/waybar"
 
+    # Wlogout
+    link_file "$DOTFILES_DIR/wlogout" "$CONFIG_DIR/wlogout"
+
 fi
 
 printf "\n${BLUE}${BOLD}All symlinks created${NC}\n"
