@@ -20,7 +20,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #3700B3;
+    background-color: rgba(55, 0, 179, 0.8);
 	outline-style: none;
 }
 
