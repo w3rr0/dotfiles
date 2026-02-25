@@ -27,6 +27,7 @@ button:focus, button:active, button:hover {
 
 #lock {
     background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    border-top-left-radius: 20;
 }
 
 #logout {
@@ -35,10 +36,12 @@ button:focus, button:active, button:hover {
 
 #suspend {
     background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+    border-top-right-radius: 20;
 }
 
 #hibernate {
     background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+    border-bottom-left-radius: 20;
 }
 
 #shutdown {
@@ -47,4 +50,5 @@ button:focus, button:active, button:hover {
 
 #reboot {
     background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+    border-bottom-right-radius: 20;
 }
